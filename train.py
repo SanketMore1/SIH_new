@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-
-from matplotlib import pyplot as plt
+import matplotlib
+import matplotlib.pyplot as plt
 from Models.model_sgd import default_model_training,custom_model_training
 def train():
     with st.container():
