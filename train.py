@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-%matplotlib inline
+
 from matplotlib import pyplot as plt
 from Models.model_sgd import default_model_training,custom_model_training
 def train():
