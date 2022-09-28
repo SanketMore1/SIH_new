@@ -6,6 +6,7 @@ from tensorflow.keras.models import load_model
 import numpy as np
 %matplotlib inline
 from matplotlib import pyplot as plt
+import matplotlib.pyplot as plt
 #import matplotlib.pyplot as plt
 def test():
     try:
