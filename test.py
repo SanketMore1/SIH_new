@@ -4,7 +4,9 @@ from Models.model_sgd import replace_categorical,replace_nan_with_zeros
 from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import load_model
 import numpy as np
-import matplotlib.pyplot as plt
+%matplotlib inline
+from matplotlib import pyplot as plt
+#import matplotlib.pyplot as plt
 def test():
     try:
         st.header("Choose CSV file")
